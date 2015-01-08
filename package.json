@@ -1,0 +1,26 @@
+{
+  "name": "angelabilities-package-scripts",
+  "version": "0.0.1",
+  "description": "quick & dirty autoloader of angelscripts nested within `<package>/scripts`.",
+  "main": "index.js",
+  "dependencies": {
+    "glob-stream": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Boris Filipov",
+  "license": "MIT",
+  "peerDependencies": {
+    "organic-angel": "0.2.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/outbounder/angelabilities-package-scripts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/outbounder/angelabilities-package-scripts/issues"
+  },
+  "homepage": "https://github.com/outbounder/angelabilities-package-scripts"
+}
