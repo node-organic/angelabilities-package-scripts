@@ -8,6 +8,6 @@ module.exports = function(angel, next){
       scripts.push(file.path)
     })
     .on('end', function(){
-      angel.loadScripts(scripts, next)
+      angel.scripts.loadScripts(scripts, next)
     })
 }

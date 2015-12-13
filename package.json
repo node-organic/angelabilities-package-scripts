@@ -1,6 +1,6 @@
 {
   "name": "angelabilities-package-scripts",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "quick & dirty autoloader of angelscripts nested within `<package>/scripts`.",
   "main": "index.js",
   "dependencies": {
@@ -13,7 +13,7 @@
   "author": "Boris Filipov",
   "license": "MIT",
   "peerDependencies": {
-    "organic-angel": "0.2.x"
+    "organic-angel": "0.3.x"
   },
   "repository": {
     "type": "git",
