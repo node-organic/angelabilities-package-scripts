@@ -3,7 +3,7 @@ var path = require("path")
 
 module.exports = function(angel, next){
   var scripts = []
-  glob.create(path.join(process.cwd(), "scripts", "**/*.js"))
+  glob(path.join(process.cwd(), "scripts", "**/*.js"))
     .on('data', function(file){
       scripts.push(file.path)
     })
