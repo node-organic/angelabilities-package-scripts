@@ -1,6 +1,6 @@
 {
   "name": "angelabilities-package-scripts",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "quick & dirty autoloader of angelscripts nested within `<package>/scripts`.",
   "main": "index.js",
   "dependencies": {
