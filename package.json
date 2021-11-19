@@ -4,7 +4,7 @@
   "description": "quick & dirty autoloader of angelscripts nested within `<package>/scripts`.",
   "main": "index.js",
   "dependencies": {
-    "glob-stream": "^6.1.0"
+    "glob-stream": "^7.0.0"
   },
   "devDependencies": {},
   "scripts": {
