@@ -1,13 +1,14 @@
-var glob = require("glob-stream")
-var path = require("path")
+const glob = require("glob-stream")
+const path = require("path")
 
 module.exports = function(angel, next){
-  var scripts = []
+  const scripts = []
   glob(path.join(process.cwd(), "scripts", "**/*.js"))
     .on('data', function(file){
       scripts.push(file.path)
     })
-    .on('end', function(){
-      angel.scripts.loadScripts(scripts, next)
+    .on('end', async function(){
+      await angel.loadScripts(scripts)
+      next()
     })
 }

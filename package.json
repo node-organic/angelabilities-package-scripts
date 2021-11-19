@@ -16,15 +16,12 @@
   },
   "author": "Boris Filipov",
   "license": "MIT",
-  "peerDependencies": {
-    "organic-angel": "0.3.x"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/outbounder/angelabilities-package-scripts.git"
+    "url": "https://github.com/node-organic/angelabilities-package-scripts.git"
   },
   "bugs": {
-    "url": "https://github.com/outbounder/angelabilities-package-scripts/issues"
+    "url": "https://github.com/node-organic/angelabilities-package-scripts/issues"
   },
-  "homepage": "https://github.com/outbounder/angelabilities-package-scripts"
+  "homepage": "https://github.com/node-organic/angelabilities-package-scripts"
 }
